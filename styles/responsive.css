@@ -1,5 +1,71 @@
 
-@media (max-width: 640px) {
-    
+@media screen and (max-width: 680px) {
+  nav > h2{
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  .btn{
+    padding: 5px 12px;
+  }
+
+  .menu{
+    margin-right: 20px;
+  }
+
+  .img{
+    display: none;
+  }
+
+  .intro{
+    margin: 0 20px;
+  }
+
+  .infu{
+    flex-wrap: wrap;
+  }
+
+  .skills{
+    flex-wrap: wrap;
+  }
+
+  .skills > div{
+    margin: 0 20px;
+  }
+
+  .resume > div{
+    width: 100%;
+  }
+
+  .resume{
+    flex-wrap: wrap;
+  }
+
+  .edu > h3 , .exp > h3{
+    font-size: 29px;
+    color: rgb(111, 102, 102);
+  }
+
+  .cv{
+    font-size: 20px;
+    padding: 12px 15px;
+  }
+
+  .footer{
+    flex-wrap: wrap;
   }
   
+  .contactlist , .form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .title2{
+    margin: 30px 0;
+  }
+
+
+
+
+
+
+}
