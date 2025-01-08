@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 25px;
+}
+
+.text{
+    color: #757575;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr{
+    color: #757575;
+    width: 98%;
+    margin: 10px auto;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+    padding: 30px;
+}
+
+/* Nav Bar Design  */
+header nav{
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 18%;
+}
+
+nav h2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+nav h2 span{
+    color: #FD6E0A;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu ul a{
+    text-decoration: none;
+}
+
+.menu ul li{
+    list-style: none;
+    color: rgb(110, 110, 110);
+}
+
+.menu ul li:hover{
+    color: #FD6E0A;
+}
+
+
+/* Hero Section Design */
+header{
+    background-image: url('../images/header_bg.png');
+    height: 50%;
+    background-position: right bottom;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+    background-size: auto;
+}
+
+.hero{
+    display: flex;
+    max-width: 1280px;
+    height: 82%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero .intro{
+    display: flex;
+    flex-direction: column;
+    margin-top: -140px;
+}
+
+.hero .intro .greet{
+    font-size: 45px;
+    color: #474747;
+    padding: 10px 0;
+}
+
+.intro > h1{
+    color: #181818;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.btnBox{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.contact{
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+}
+.img{
+    display: flex;
+    align-self: flex-end;
+}
+.hero img{
+    margin-right: -40px;
+    height: 600px;
+    align-self: flex-end;
+}
+
+/* About Me */
+.about{
+    max-width: 1280px;
+    background-color: #FFF8F3;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+.about > div{
+    padding: 80px;
+}
+
+.introText{
+    text-align: center;
+}
+
+.infu{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* What i do */
+
+.whatido{
+    max-width: 1280px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.whatido > p{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.skills{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills > div{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgb(228, 227, 227);
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills > img{
+    width: 44px;
+    border-radius: 20px;
+}
+
+
+
+/* Resume Summary */
+.resumeSection{
+    max-width: 1280px;
+    margin: 90px auto;
+}
+
+.resumeSection > h2{
+    text-align: center;
+}
+
+.resumeSection .text{
+    color: rgb(134, 134, 134);
+}
+
+.resumeSection > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resume > div{
+    padding: 30px;
+    width: 45%;
+}
+
+.cv{
+    margin: 40px auto;
+}
+
+
+/* Footer */
+footer{
+    background-color: #FFF8F3;
+}
+
+footer > div{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.contactlist , .form{
+    width: 40%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.iconf{
+    display: flex;
+    gap: 20px;
+}
+
+.iconf > img{
+    width: 24px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+input , textarea{
+    padding: 10px;
+    font-weight: 600;
+    color: #757575;
+    border: none;
+}
