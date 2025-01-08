@@ -104,7 +104,9 @@ header{
     align-items: center;
     margin: 0 auto;
 }
-
+.img {
+    margin-right: -200px;
+}
 .hero .intro{
     display: flex;
     flex-direction: column;
