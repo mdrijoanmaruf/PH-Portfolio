@@ -4,6 +4,10 @@
     font-size: 35px;
     margin-left: 20px;
   }
+
+  ul{
+    gap: 5px;
+  }
   .btn{
     padding: 5px 12px;
   }
@@ -64,8 +68,17 @@
   }
 
 
+  /* 2nd time update */
+  .about > div{
+    padding: 50px 20px;
+  }
 
+  .infu{
+    flex-direction: column;
+  }
 
-
+  .menu{
+    gap: 10px;
+  }
 
 }
